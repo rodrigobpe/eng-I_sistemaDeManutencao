@@ -4,6 +4,7 @@
 
 <template>
   <Navbar logo="Teste"/>
+  <RouterView/>
 </template>
 
 <style>
