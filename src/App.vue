@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <Navbar logo="Teste"/>
+  <Navbar logo="iFix"/>
   <RouterView/>
 </template>
 
