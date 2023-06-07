@@ -2,5 +2,9 @@ html{
     width: 100vw;
     font-family: 'Inter', sans-serif;
     font-size: 10px;
-    font-weight: 300;
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
 }
