@@ -2,7 +2,7 @@
 import Titles from '../components/Titles.vue';
 </script>
 <template>
-  <Titles title="Clientes" justifyContent="" />
+  <Titles title="Clientes" data="" />
 </template>
 
 
