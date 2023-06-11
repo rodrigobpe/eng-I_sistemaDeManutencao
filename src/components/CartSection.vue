@@ -1,18 +1,18 @@
 <script setup>
+import utils from "../utils";
 import CartCards from "./CartCards.vue";
+
 </script>
 
 <template>
   <section class="cart-section">
-    <CartCards/>
-    <CartCards/>
-    <CartCards/>
+    <CartCards v-for="data in utils.images" :key="data" :data="data"/>
   </section>
 </template>
 
 <style>
 .cart-section{
     display: flex;
-    max-width: 50%;
+    width: 60%;
     flex-direction: column;}
 </style>

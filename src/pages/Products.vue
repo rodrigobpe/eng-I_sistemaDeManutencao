@@ -1,9 +1,12 @@
 <script setup>
 import Titles from '../components/Titles.vue';
+import utils from '../utils';
 import CartSection from '../components/CartSection.vue';
+import TotalPriceCart from '../components/TotalPriceCart.vue';
+
 const data = {
   justifyContent: '',
-  qtdProducts: 3,
+  qtdProducts: utils.images.length,
   description: 'Produtos'
 }
 
@@ -12,7 +15,7 @@ const data = {
   <Titles title="Carrinho" :data="data"/>
   <main class="main-products">
     <CartSection/>
-    <p>KKKKKKKKKKKK</p>
+    <TotalPriceCart/>
   </main>
 </template>
 
@@ -20,6 +23,7 @@ const data = {
 <style>
 .main-products{
   display: flex;
+  justify-content: space-between;
   padding: 4rem 9rem 9rem;
 }
 </style>

@@ -1,5 +1,5 @@
 html{
-    width: 100vw;
+    max-width: 100vw;
     font-family: 'Inter', sans-serif;
     font-size: 10px;
     font-weight: 400;
@@ -12,4 +12,9 @@ a{
 
 h1{
     font-size: 6.4rem;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none;
 }
