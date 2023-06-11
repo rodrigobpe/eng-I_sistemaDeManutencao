@@ -28,7 +28,7 @@ const props = defineProps(["logo"]);
   cursor: pointer;
 }
 
-.nav-item a{
+.nav-item a,.account{
   margin-right: 5rem;
   transition: all 0.3s ease-in-out;
   color: var(--color-negative);

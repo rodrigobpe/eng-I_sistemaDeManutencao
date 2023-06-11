@@ -1,8 +1,9 @@
 <script setup>
+import Titles from '../components/Titles.vue';
 
 </script>
 <template>
-  <h1>SERVIÇOS</h1>
+  <Titles title="Serviços" justifyContent=""/>
 </template>
 
 

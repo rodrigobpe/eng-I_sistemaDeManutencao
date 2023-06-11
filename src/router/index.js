@@ -5,31 +5,36 @@ import Products from '../pages/Products.vue'
 import Clients from '../pages/Clients.vue'
 import Services from '../pages/Services.vue'
 
-const routes =[
+const routes = [
     {
-        path:'/',
+        path: '/',
+        name: 'Home',
         component: Home,
     },
     {
-        path:'/budget',
+        path: '/budget',
+        name: 'Budget',
         component: Budget
     },
     {
-        path:'/products',
+        path: '/products',
+        name: 'Products',
         component: Products
     },
     {
-        path:'/clients',
+        path: '/clients',
+        name: 'Clients',
         component: Clients
     },
     {
-        path:'/services',
+        path: '/services',
+        name: 'Services',
         component: Services
     },
 ]
 
 const router = createRouter({
-    history:createWebHistory(),
+    history: createWebHistory(),
     routes
 })
 

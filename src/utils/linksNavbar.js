@@ -12,8 +12,8 @@ const linkNavbar = [
         name: "Produtos",
     },
     {
-        path: "/budget",
-        name: "Orçamentos",
+        path: "/services",
+        name: "Serviços",
     },
 ];
 
