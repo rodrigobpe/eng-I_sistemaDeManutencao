@@ -2,7 +2,7 @@ const images = [
     {
         link:'https://m.media-amazon.com/images/I/7120GgUKj3L._AC_SX679_.jpg',
         title:'AirPods',
-        price:1300
+        price:1300,
     },
     {
         link:'https://a-static.mlcdn.com.br/800x560/apple-iphone-13-128gb-product-red-tela-61-12mp/magazineluiza/234662100/98491bfa9e426d2b1368b5bd344068a4.jpg',

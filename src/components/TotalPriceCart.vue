@@ -32,7 +32,7 @@ const teste = ()=>{
     display: flex;
     flex-direction: column;
     width: 39.5rem;
-    height: 31.8rem;
+    height: 28.8rem;
     padding: 2.4rem;
     background-color: var(--color-lime);
     border: 1px solid var(--color-light-gray);
