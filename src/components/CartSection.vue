@@ -1,5 +1,4 @@
 <script setup>
-import { ref } from "vue";
 import utils from "../utils";
 import CartCards from "./CartCards.vue";
 
@@ -11,7 +10,6 @@ import CartCards from "./CartCards.vue";
       v-for="data in utils.images"
       :key="data"
       :data="data"
-      @cart-total="cartTotal"
     />
   </section>
 </template>
