@@ -1,11 +1,12 @@
 <script setup>
 import BudgetCards from './BudgetCards.vue';
-import utils from "../utils";
+
+const {budgets} = defineProps(['budgets'])
 </script>
 
 <template>
   <section class="budget-container">
-    <BudgetCards v-for="data in utils.orçamentos" :key="data" :data="data"/>
+    <BudgetCards v-for="budget in budgets" :key="budget.id" :data="budget"/>
   </section>
 </template>
 

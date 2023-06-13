@@ -1,13 +1,13 @@
 <script setup>
-const props = defineProps(['data']);
+const {data} = defineProps(['data']);
 </script>
 
 <template>
     <div class="budget-card-container">
         <div class="budget-card-desc">
-            <h1>{{ props.data.title }}</h1>
-            <h1>Descrição: {{ props.data.description }}</h1>
-            <p>Cliente: {{ props.data.client }}</p>
+            <h1>{{ data.title }}</h1>
+            <h1>Descrição: {{ data.description }}</h1>
+            <p>Cliente: {{ data.client }}</p>
         </div>
         <span>Ver Detalhes</span>
     </div>

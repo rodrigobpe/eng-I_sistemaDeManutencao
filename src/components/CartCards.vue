@@ -1,16 +1,16 @@
 <script setup>
-const props = defineProps(["data"]);
+const {services} = defineProps(["services"]);
 
 </script>
 
 <template>
   <div class="card-cart-container">
-    <img :src="props.data.link" alt="imagem" />
+    <img :src="services.link" alt="imagem" />
     <div class="cart-description-container">
-      <h1>{{ props.data.title }}</h1>
-      <input type="number" :value="props.data.qtd" min="0" disabled=""/>
+      <h1>{{ services.title }}</h1>
+      <input type="number" :value="services.qtd" min="0" disabled/>
     </div>
-    <p>R${{ props.data.price * props.data.qtd }}</p>
+    <p>R${{ services.price * services.qtd }}</p>
 
   </div>
 </template>

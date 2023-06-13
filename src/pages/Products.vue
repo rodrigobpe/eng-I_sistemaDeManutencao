@@ -1,30 +1,10 @@
 <script setup>
-import Titles from '../components/Titles.vue';
-import utils from '../utils';
-import CartSection from '../components/CartSection.vue';
-import TotalPriceCart from '../components/TotalPriceCart.vue';
-
-const data = {
-  justifyContent: '',
-  qtdProducts: utils.images.length,
-  description: 'Produtos'
-}
-
-
+import Titles from "../components/Titles.vue";
 </script>
 <template>
-  <Titles title="Carrinho" :data="data"/>
-  <main class="main-products">
-    <CartSection/>
-    <TotalPriceCart/>
-  </main>
+  <Titles title="Produtos" data="" />
 </template>
 
 
 <style>
-.main-products{
-  display: flex;
-  justify-content: space-between;
-  padding: 4rem 9rem 9rem;
-}
 </style>

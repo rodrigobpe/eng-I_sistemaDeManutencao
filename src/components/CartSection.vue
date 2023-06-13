@@ -1,15 +1,16 @@
 <script setup>
-import utils from "../utils";
 import CartCards from "./CartCards.vue";
+
+const {services} = defineProps(['services'])
 
 </script>
 
 <template >
   <section class="cart-section">
     <CartCards
-      v-for="data in utils.images"
-      :key="data"
-      :data="data"
+      v-for="service in services"
+      :key="service.id"
+      :services="service"
     />
   </section>
 </template>
