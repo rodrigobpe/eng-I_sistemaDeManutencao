@@ -1,7 +1,6 @@
 <script setup>
-import { ref } from "vue";
 const props = defineProps(["data"]);
-const quantity_itens = ref(0);
+
 </script>
 
 <template>
@@ -9,9 +8,10 @@ const quantity_itens = ref(0);
     <img :src="props.data.link" alt="imagem" />
     <div class="cart-description-container">
       <h1>{{ props.data.title }}</h1>
-      <input type="number" v-model="quantity_itens" />
+      <input type="number" :value="props.data.qtd" min="0" disabled=""/>
     </div>
-    <p>R${{ props.data.price }}</p>
+    <p>R${{ props.data.price * props.data.qtd }}</p>
+
   </div>
 </template>
 
@@ -49,9 +49,6 @@ const quantity_itens = ref(0);
 
 .cart-description-container input[type="number"] {
   height: 4rem;
-  -webkit-appearance: textfield;
-  -moz-appearance: textfield;
-  appearance: textfield;
   width: 10rem;
   padding: 0.5rem 1.7rem;
   border: 1px solid var(--color-light-gray);

@@ -1,7 +1,7 @@
 <script setup>
 import utils from '../utils';
-const prices = utils.images.map(data => data.price );
-const subtotal = prices.reduce((prev,cur) => prev+cur)
+const props = defineProps(['data'])
+const prices = utils.images.map(data => {return data.price*data.qtd}).reduce((total,cur)=> {return total + cur});
 const teste = ()=>{
     alert("teste")
 }
@@ -12,7 +12,7 @@ const teste = ()=>{
         <h1 class="resume-title">Resumo da compra</h1>
         <div class="resume-description">
             <p>Subtotal</p>
-            <p>R${{ subtotal }}</p>
+            <p>R${{ prices }}</p>
         </div>
         <div class="resume-description">
             <p>Frete</p>
@@ -20,7 +20,7 @@ const teste = ()=>{
         </div>
         <div class="resume-description">
             <p class="resume-total">Total</p>
-            <p class="resume-total">R${{ subtotal }}</p>
+            <p class="resume-total">R${{ prices }}</p>
         </div>
         <button @click.prevent="teste">Realizar Pagamento</button>
     </section>

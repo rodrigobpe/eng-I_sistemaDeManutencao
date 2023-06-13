@@ -3,12 +3,14 @@ import Titles from '../components/Titles.vue';
 import utils from '../utils';
 import CartSection from '../components/CartSection.vue';
 import TotalPriceCart from '../components/TotalPriceCart.vue';
+import { ref } from 'vue';
 
 const data = {
   justifyContent: '',
   qtdProducts: utils.images.length,
   description: 'Produtos'
 }
+
 
 </script>
 <template>
