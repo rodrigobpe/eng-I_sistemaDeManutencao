@@ -1,58 +1,99 @@
 {
-  "budgets": [
+  "services": [
+    {
+      "id": 0,
+      "title": "Capa iPhone 14 Pro Max",
+      "price": 80,
+      "quantity": 1,
+      "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQkoQksmhaRUqMTNryhxshOkvkpjBxFKGkUfDV4W3L5Wp5L9pxcy_ugTrnAonWvdvzA77fhKXEJH-H6XbII1YUF45yF5y-f-o-mYzqJRzE7rOTGj2iCXrbPZlvzCWFTaJuXEg&usqp=CAc"
+    },
     {
       "id": 1,
-      "title": "Macbook Air 2017",
-      "description": "Esquenta com frequência e bateria está durando pouco.",
-      "client": "João dos Pecados"
+      "title": "Pano de Polimento Apple",
+      "price": 250,
+      "quantity": 1,
+      "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MM6F3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1632956535000"
     },
     {
       "id": 2,
-      "title": "Samsung Galaxy A52",
-      "description": "Caiu na água e não ligou mais",
-      "client": "Pobre Coitado"
-    },
-    {
-      "id": 3,
-      "title": "iPad Pro 2020",
-      "description": "Tela quebrada",
-      "client": "João Cena"
-    },
-    {
-      "id": 4,
-      "title": "iPhone 11",
-      "description": "Troca de Bateria",
-      "client": "Fulano"
+      "title": "Apple AirPods Pro 2ª geração",
+      "price": 1800,
+      "quantity": 1,
+      "img": "https://m.media-amazon.com/images/I/61CVih3UpdL.__AC_SY445_SX342_QL70_ML2_.jpg"
     }
   ],
-  "services": [
+  "budgets": [
     {
-      "id":1,
-      "link": "https://m.media-amazon.com/images/I/7120GgUKj3L._AC_SX679_.jpg",
-      "title": "AirPods",
-      "price": 1300,
-      "qtd": 1
+      "id": 9821,
+      "name": "Macbook Air 2017",
+      "description": "Esquenta com frequência e bateria está durando pouco.",
+      "client": "João dos Pecados",
+      "isFinish": true,
+      "phone": "47999999999",
+      "deliveryDate": 2
     },
     {
-      "id":2,
-      "link": "https://a-static.mlcdn.com.br/800x560/apple-iphone-13-128gb-product-red-tela-61-12mp/magazineluiza/234662100/98491bfa9e426d2b1368b5bd344068a4.jpg",
-      "title": "Iphone 14 Pro Max",
-      "price": 8990,
-      "qtd": 2
+      "id": 4323,
+      "name": "Samsung Galaxy A52",
+      "description": "Caiu na água e não ligou mais",
+      "client": "Pobre Coitado",
+      "isFinish": false,
+      "phone": "47999923999",
+      "deliveryDate": 4
     },
     {
-      "id":3,
-      "link": "https://a-static.mlcdn.com.br/800x560/apple-iphone-13-128gb-meia-noite-tela-61-12mp/magazineluiza/234661800/a57c1ab14765ab0b7ca87de98ba94b94.jpg",
-      "title": "Iphone 14",
-      "price": 7890,
-      "qtd": 1
+      "id": 1972,
+      "name": "iPad Pro 2020",
+      "description": "Tela quebrada",
+      "client": "João Cena",
+      "isFinish": false,
+      "phone": "479999999211",
+      "deliveryDate": 2
     },
     {
-      "id":4,
-      "link": "https://img-21.ccm2.net/uQCsqMahKwNHxuq_qDRKr32yeGQ=/600x/311d1e38873e47ffb68b033c2e6ec693/ccm-faq/photo-1482062364825-616fd23b8fc1.jpg",
-      "title": "Notebook",
-      "price": 4000,
-      "qtd": 1
+      "id": 1972,
+      "name": "iPhone 11",
+      "description": "Troca de Bateria",
+      "client": "John Sin",
+      "isFinish": false,
+      "phone": "479999999212",
+      "deliveryDate": 1
+    },
+    {
+      "id": 1245,
+      "name": "Honda civic",
+      "description": "Lavar o carro",
+      "client": "Rodrigo",
+      "isFinish": false,
+      "phone": "47999999991",
+      "deliveryDate": 2
+    },
+    {
+      "id": 4231,
+      "name": "BOT_BOLADÃO_2",
+      "description": "teste",
+      "client": "aaaaaaaa",
+      "isFinish": false,
+      "phone": "47999999991",
+      "deliveryDate": 3
+    },
+    {
+      "id": 42312,
+      "name": "BOT_BOLADÃO_3",
+      "description": "Lavar o carro 2",
+      "client": "Rodrigo1",
+      "isFinish": false,
+      "phone": "47999999992",
+      "deliveryDate": 123
+    },
+    {
+      "id": 12312,
+      "name": "Rodrigo Batista Pereira123",
+      "description": "Testeeee",
+      "client": "Rodrigo231",
+      "isFinish": false,
+      "phone": "47999999991123",
+      "deliveryDate": 123123
     }
   ]
 }
