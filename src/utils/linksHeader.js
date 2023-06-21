@@ -4,14 +4,6 @@ const linksHeader = [
         name:'Orçamento'
     },
     {
-        path:'/clients',
-        name:'Clientes'
-    },
-    {
-        path:'/products',
-        name:'Produtos'
-    },
-    {
         path:'/services',
         name:'Serviços'
     },

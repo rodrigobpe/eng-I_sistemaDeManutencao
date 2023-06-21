@@ -16,7 +16,11 @@ export const useServiceStore = defineStore('service', () => {
         services.value = data
     }
 
+    const addService = async (service) =>{
+        await api.post('/services',service);
+        services.value.push(service)
+    }
     return {
-        getTasks, totalCount, services
+        getTasks, totalCount, services,addService
     }
 })

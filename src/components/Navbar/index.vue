@@ -8,7 +8,7 @@ import linksHeader from "../../utils/linksHeader";
       <li v-for="(link, index) in linksHeader" :key="index">
         <a
           class="header-link"
-          :class="[index === 4 ? 'active' : 0]"
+          :class="[index === 2 ? 'active' : 0]"
           :href="link.path"
           >{{ link.name }}</a
         >

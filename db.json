@@ -5,6 +5,9 @@
       "title": "Capa iPhone 14 Pro Max",
       "price": 80,
       "quantity": 1,
+      "desc": "teste",
+      "client": "teste1",
+      "phone": "47999923999",
       "img": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQkoQksmhaRUqMTNryhxshOkvkpjBxFKGkUfDV4W3L5Wp5L9pxcy_ugTrnAonWvdvzA77fhKXEJH-H6XbII1YUF45yF5y-f-o-mYzqJRzE7rOTGj2iCXrbPZlvzCWFTaJuXEg&usqp=CAc"
     },
     {
@@ -12,6 +15,9 @@
       "title": "Pano de Polimento Apple",
       "price": 250,
       "quantity": 1,
+      "desc": "teste",
+      "client": "teste4",
+      "phone": "47999923991",
       "img": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MM6F3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1632956535000"
     },
     {
@@ -19,6 +25,9 @@
       "title": "Apple AirPods Pro 2ª geração",
       "price": 1800,
       "quantity": 1,
+      "desc": "teste",
+      "client": "teste3",
+      "phone": "47999923929",
       "img": "https://m.media-amazon.com/images/I/61CVih3UpdL.__AC_SY445_SX342_QL70_ML2_.jpg"
     }
   ],
@@ -30,7 +39,7 @@
       "client": "João dos Pecados",
       "isFinish": true,
       "phone": "47999999999",
-      "deliveryDate": 2
+      "deliveryDate": "24/06/2023"
     },
     {
       "id": 4323,
@@ -39,7 +48,7 @@
       "client": "Pobre Coitado",
       "isFinish": false,
       "phone": "47999923999",
-      "deliveryDate": 4
+      "deliveryDate": "22/06/2023"
     },
     {
       "id": 1972,
@@ -48,7 +57,7 @@
       "client": "João Cena",
       "isFinish": false,
       "phone": "479999999211",
-      "deliveryDate": 2
+      "deliveryDate": "26/06/2023"
     },
     {
       "id": 1972,
@@ -57,43 +66,7 @@
       "client": "John Sin",
       "isFinish": false,
       "phone": "479999999212",
-      "deliveryDate": 1
-    },
-    {
-      "id": 1245,
-      "name": "Honda civic",
-      "description": "Lavar o carro",
-      "client": "Rodrigo",
-      "isFinish": false,
-      "phone": "47999999991",
-      "deliveryDate": 2
-    },
-    {
-      "id": 4231,
-      "name": "BOT_BOLADÃO_2",
-      "description": "teste",
-      "client": "aaaaaaaa",
-      "isFinish": false,
-      "phone": "47999999991",
-      "deliveryDate": 3
-    },
-    {
-      "id": 42312,
-      "name": "BOT_BOLADÃO_3",
-      "description": "Lavar o carro 2",
-      "client": "Rodrigo1",
-      "isFinish": false,
-      "phone": "47999999992",
-      "deliveryDate": 123
-    },
-    {
-      "id": 12312,
-      "name": "Rodrigo Batista Pereira123",
-      "description": "Testeeee",
-      "client": "Rodrigo231",
-      "isFinish": false,
-      "phone": "47999999991123",
-      "deliveryDate": 123123
+      "deliveryDate": "25/06/2023"
     }
   ]
 }

@@ -28,7 +28,7 @@ const handleNewBudget = () => {
       client: newBudget.client,
       isFinish: false,
       phone: newBudget.phone,
-      deliveryDate: parseInt(newBudget.deliveryDate),
+      deliveryDate: newBudget.deliveryDate,
     });
 
     newBudget.id = "";
@@ -45,17 +45,47 @@ const handleNewBudget = () => {
   <div class="budget-container">
     <form @submit.prevent="handleNewBudget">
       <label for="description">Descrição:</label>
-      <input type="text" id="description" v-model="newBudget.description" />
+      <input
+        type="text"
+        id="description"
+        placeholder="Insira uma descrição"
+        v-model="newBudget.description"
+      />
       <label for="id">Numero de série:</label>
-      <input type="text" id="id" v-model="newBudget.id" />
+      <input
+        type="number"
+        id="id"
+        placeholder="Insira um id"
+        v-model="newBudget.id"
+      />
       <label for="client">Nome cliente:</label>
-      <input type="text" id="client" v-model="newBudget.client" />
+      <input
+        type="text"
+        id="client"
+        placeholder="Insira um cliente"
+        v-model="newBudget.client"
+      />
       <label for="name">Nome Produto:</label>
-      <input type="text" id="name" v-model="newBudget.name" />
+      <input
+        type="text"
+        id="name"
+        placeholder="Insira o nome do produto"
+        v-model="newBudget.name"
+      />
       <label for="deliveryDate">Data de entrega:</label>
-      <input type="text" id="deliveryDate" v-model="newBudget.deliveryDate" />
+      <input
+        type="date"
+        id="deliveryDate"
+        placeholder="Insira a data de entrega"
+        v-model="newBudget.deliveryDate"
+      />
       <label for="phone">Telefone:</label>
-      <input type="phone" id="phone" v-model="newBudget.phone" />
+      <input
+        type="tel"
+        id="phone"
+        placeholder="(99) 99999-9999"
+        v-model="newBudget.phone"
+      />
       <button>Cadastrar Orçamento</button>
     </form>
   </div>
@@ -84,7 +114,7 @@ const handleNewBudget = () => {
 
 .budget-container input {
   height: 2rem;
-  padding: 1rem;    
+  padding: 1rem;
   margin: 0 0 1.8rem 0;
   border: 1px solid var(--color-light-gray);
   border-radius: 20px;
